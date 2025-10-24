@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:no-tsc": "vite build",
     "preview": "vite preview",
     "build:plesk": "npm install && npm run build",
     "deploy:plesk": "npm run build:plesk && cp -r dist/* ../",
