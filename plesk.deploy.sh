@@ -14,7 +14,7 @@ rm -rf node_modules/.cache
 
 # Install dependencies
 echo "📦 Installing dependencies..."
-npm ci --production=false
+npm install
 
 # Build the project
 echo "🔨 Building project..."
