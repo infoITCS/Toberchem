@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "build:plesk": "npm install && npm run build",
     "deploy:plesk": "npm run build:plesk && cp -r dist/* ../",
+    "deploy:windows": "vite build && xcopy /E /Y dist\\* ..\\ && copy /Y public\\.htaccess ..\\",
     "clean": "rm -rf dist node_modules/.cache"
   },
   "devDependencies": {
