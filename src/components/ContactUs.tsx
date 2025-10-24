@@ -94,7 +94,7 @@ function ContactUs() {
                 <div>
                   <h4 className="font-bold text-lg text-blue-900 mb-1">Email</h4>
                   <a href="mailto:Toberchem@gmail.com" className="text-gray-700 hover:text-blue-900 transition-colors">
-                    Toberchem@gmail.com
+                  info@toberchemicals.com
                   </a>
                 </div>
               </div>
